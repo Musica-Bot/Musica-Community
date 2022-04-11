@@ -5,10 +5,10 @@ labels: ["Feature request", "Needs Triage"]
 body:
 - type: checkboxes
   attributes:
-    label: "類似したIssueはありませんでしたか？"
-    description: "要望する機能について、既に類似したIssueが存在しないかどうか検索してください。"
+    label: "類似したIssueやロードマップはありませんでしたか？"
+    description: "要望する機能について、既に類似したIssueやロードマップが存在しないかどうか検索してください。"
     options:
-    - label: "既存のIssueを検索しました。"
+    - label: "既存のIssueやロードマップを検索しました。"
       required: true
 - type: textarea
   id: request
