@@ -4,11 +4,12 @@ title: タイトル - バグの内容を簡潔に記述してください。
 labels: [Bug, Needs Triage]
 body:
 - type: checkboxes
+  id: check-duplicate
   attributes:
     label: 類似したIssueはありませんでしたか？
     description: あなたが遭遇したバグについて、既に類似したIssueが存在しないかどうか検索してください。
     options:
-    - label: 既存の問題を検索しました。
+    - label: 既存のIssueを検索しました。
       required: true
 - type: textarea
   id: bug-details
