@@ -1,7 +1,7 @@
 name: 🐞 Bug Report
-description: バグ報告のテンプレート
+description: "バグ報告のテンプレート"
 title: "タイトル - バグの内容を簡潔に記述してください。"
-labels: [Bug, Needs Triage]
+labels: ["Bug", "Needs Triage"]
 body:
 - type: checkboxes
   attributes:
