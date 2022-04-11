@@ -5,7 +5,6 @@ labels: [Bug, Needs Triage]
 body:
 - type: checkboxes
   attributes:
-    id: check-duplicate
     label: 類似したIssueはありませんでしたか？
     description: あなたが遭遇したバグについて、既に類似したIssueが存在しないかどうか検索してください。
     options:
