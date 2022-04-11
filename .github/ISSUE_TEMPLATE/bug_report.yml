@@ -5,6 +5,7 @@ labels: [Bug, Needs Triage]
 body:
 - type: checkboxes
   attributes:
+    id: check-duplicate
     label: 類似したIssueはありませんでしたか？
     description: あなたが遭遇したバグについて、既に類似したIssueが存在しないかどうか検索してください。
     options:
@@ -12,24 +13,28 @@ body:
       required: true
 - type: textarea
   attributes:
+    id: bug-details
     label: 発生したバグの詳細
     description: 発生したバグの内容をできるだけ詳しく説明してください。
   validations:
     required: false
 - type: textarea
   attributes:
+    id: screenshot
     label: スクリーンショット
     description: スクリーンショットが用意できる場合は添付してください。
   validations:
     required: false
 - type: textarea
   attributes:
+    id: how-to-reproduce
     label: 再現方法
     description: バグを再現する手順を記載してください。
   validations:
     required: false
 - type: textarea
   attributes:
+    id: environment
     label: 環境
     description: 環境依存のバグの場合は記載してください。
   validations:
