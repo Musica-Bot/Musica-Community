@@ -4,6 +4,7 @@ title: タイトル - 提案や要望の内容を簡潔に記述してくださ�
 labels: [Feature request, Needs Triage]
 body:
 - type: checkboxes
+  id: check-duplicate
   attributes:
     label: 類似したIssueやロードマップはありませんでしたか？
     description: 要望する機能について、既に類似したIssueやロードマップが存在しないかどうか検索してください。
