@@ -1,36 +1,41 @@
 name: 🐞 Bug Report
 description: バグ報告のテンプレート
-title: "タイトル - バグの内容を簡潔に記述してください。"
+title: タイトル - バグの内容を簡潔に記述してください。
 labels: [Bug, Needs Triage]
 body:
 - type: checkboxes
+  id: check-duplicate
   attributes:
     label: 類似したIssueはありませんでしたか？
     description: あなたが遭遇したバグについて、既に類似したIssueが存在しないかどうか検索してください。
     options:
-    - label: 既存の問題を検索しました。
+    - label: 既存のIssueを検索しました。
       required: true
 - type: textarea
+  id: bug-details
   attributes:
     label: 発生したバグの詳細
     description: 発生したバグの内容をできるだけ詳しく説明してください。
   validations:
     required: false
 - type: textarea
+  id: screenshot
   attributes:
     label: スクリーンショット
     description: スクリーンショットが用意できる場合は添付してください。
   validations:
     required: false
 - type: textarea
+  id: how-to-reproduce
   attributes:
     label: 再現方法
     description: バグを再現する手順を記載してください。
   validations:
     required: false
 - type: textarea
+  id: environment
   attributes:
-    label: Environment
+    label: 環境
     description: 環境依存のバグの場合は記載してください。
   validations:
     required: false
