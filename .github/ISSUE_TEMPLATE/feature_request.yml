@@ -1,26 +1,26 @@
-name: "✨ Feature Request"
-description: "新機能のリクエストや機能の改善"
-title: "タイトル - 提案や要望の内容を簡潔に記述してください。"
-labels: ["Feature request", "Needs Triage"]
+name:　✨ Feature Request
+description:　新機能のリクエストや機能の改善
+title: タイトル - 提案や要望の内容を簡潔に記述してください。
+labels: [Feature request, Needs Triage]
 body:
 - type: checkboxes
   attributes:
-    label: "類似したIssueやロードマップはありませんでしたか？"
-    description: "要望する機能について、既に類似したIssueやロードマップが存在しないかどうか検索してください。"
+    label: 類似したIssueやロードマップはありませんでしたか？
+    description: 要望する機能について、既に類似したIssueやロードマップが存在しないかどうか検索してください。
     options:
-    - label: "既存のIssueやロードマップを検索しました。"
+    - label: 既存のIssueやロードマップを検索しました。
       required: true
 - type: textarea
   id: request
   attributes:
-    label: "提案・要望"
-    description: "提案や要望をできるだけ詳しく記述してください。"
+    label: 提案・要望
+    description: 提案や要望をできるだけ詳しく記述してください。
   validations:
     required: false
 - type: textarea
   id: remarks
   attributes:
-    label: "備考"
-    description: "上記の提案・要望異関連したことがあれば記載してください。"
+    label: 備考
+    description: 上記の提案・要望異関連したことがあれば記載してください。
   validations:
     required: false
