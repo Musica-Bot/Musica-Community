@@ -11,12 +11,14 @@ body:
     - label: "既存のIssueを検索しました。"
       required: true
 - type: textarea
+  id: request
   attributes:
     label: "提案・要望"
     description: "提案や要望をできるだけ詳しく記述してください。"
   validations:
     required: false
 - type: textarea
+  id: remarks
   attributes:
     label: "備考"
     description: "上記の提案・要望異関連したことがあれば記載してください。"
